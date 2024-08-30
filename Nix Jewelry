@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Especifica el lenguaje del documento -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nix Jewelry</title> <!-- Corregido "Jewerly" a "Jewelry" -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./imagenes/Logo nix jewerly.jpg" alt="Logo de la empresa"> <!-- Corregido el nombre del archivo y texto alternativo -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://wa.me/message/P5776AC6PRWJH1" class="btn btn-link">WhatsApp</a></li> <!-- Cambiado a botones de enlace de Bootstrap -->
+                <li><a href="https://www.facebook.com/profile.php?id=61561391403632&mibextid=ZbWKwL" class="btn btn-link">Facebook</a></li> <!-- Corregido el enlace vacío -->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="text-center">
+            <h1>¿Qué es Nix Jewelry?</h1> <!-- Corregido "Jewerly" a "Jewelry" -->
+            <p>Somos una tienda virtual de joyas en la República Dominicana. Si necesitas collares, aretes, llaveros, anillos, entre otras cosas, todo lo puedes conseguir con nosotros.</p> <!-- Corregido "Republica Dominicana" y otros errores -->
+          
+        </div>
+    </section>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagenes/anillo dde oro y esmerarlda.jpg" class="d-block w-100" alt="Anillo de oro y esmeralda"> <!-- Corregido el nombre del archivo y texto alternativo -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Coming Soon</h5> <!-- Corregido "COMING SOON" a "Coming Soon" -->
+                    <p>Muy pronto estaremos con ustedes.</p> <!-- Corregido "MUy" a "Muy" -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/joyas  de oro.jpg" class="d-block w-100" alt="Joyas de oro"> <!-- Corregido el nombre del archivo y texto alternativo -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Coming Soon</h5> <!-- Corregido "COMING SOON" a "Coming Soon" -->
+                    <p>Muy pronto estaremos con ustedes.</p> <!-- Corregido "MUy" a "Muy" -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/joyas y perlas.jpg" class="d-block w-100" alt="Joyas y perlas"> <!-- Corregido el nombre del archivo y texto alternativo -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Coming Soon</h5> <!-- Corregido "COMING SOON" a "Coming Soon" -->
+                    <p>Muy pronto estaremos con ustedes.</p> <!-- Corregido "MUy" a "Muy" -->
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    
+
+
+
+    <section id="productos" class="container my-5" style="background-image: url('./imagenes/fondo\ de\ pagina.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;  color: black;">
+      <h2>Nuestros Productos</h2>
+          <div class="row">
+              <!-- Producto 1 -->
+              <div class="col-md-4">
+                  <div class="card">
+                      <img src="./imagenes/producto1.jpg" class="card-img-top" alt=" charms">
+                      <div class="card-body">
+                          <h5 class="card-title">Dijes para pulsera</h5>
+                          <p class="card-text">proximamente</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Producto 2 -->
+              <div class="col-md-4">
+                  <div class="card">
+                      <img src="./imagenes/pulsera.jpg" class="card-img-top" alt="Producto 2">
+                      <div class="card-body">
+                          <h5 class="card-title">Pulsera italiana</h5>
+                          <p class="card-text">proximamente</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Producto 3 -->
+              <div class="col-md-4">
+                  <div class="card">
+                      <img src="./imagenes/reloj.jpg" class="card-img-top" alt="Producto 3">
+                      <div class="card-body">
+                          <h5 class="card-title">reloj de mujer</h5>
+                          <p class="card-text">proximamente</p>
+                          <a href="#" class="btn btn-primary">Comprar</a>
+                      </div>
+                  </div>
+              </div>
+        
+        
+      </div>
+  </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> <!-- Usar bootstrap.bundle.min.js que incluye Popper.js -->
+</body>
+</html>
